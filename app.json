@@ -1,0 +1,14 @@
+{ 
+    "name": "testapp-review",
+    "description": "test application review",
+    "buildpacks": [
+        {"url": "https://buildpack-registry.s3.amazonaws.com/buildpacks/hashnuke/elixir.tgz"},
+        {"url": "https://github.com/gjaldon/heroku-buildpack-phoenix-static.git"}
+    ],
+    "addons": [
+        {
+            "plan": "heroku-postgresql:hobby-dev"
+        }
+    ]
+
+}
