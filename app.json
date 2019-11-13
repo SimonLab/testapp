@@ -9,4 +9,5 @@
         {
             "plan": "heroku-postgresql:hobby-dev"
         }
+    ]
 }
